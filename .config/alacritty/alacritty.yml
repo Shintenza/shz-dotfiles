@@ -1,0 +1,193 @@
+env:
+  TERM: xterm-256color
+window:
+  opacity: 0.95
+  #position:
+  #  x: 0
+  #  y: 0
+
+  padding:
+    x: 6
+    y: 6
+
+  dynamic_padding: true
+
+  title: Alacritty
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+scrolling:
+  history: 5000
+
+tabspaces: 4
+
+# Font configuration
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: FiraCode Nerd Font
+    style: Bold Italic
+
+  size: 9
+  offset:
+    x: 0
+    y: 1
+
+  #glyph_offset:
+  #  x: 0
+  #  y: 0
+
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+schemes:
+  gruvbox-material: &gruvbox-material
+    primary:
+      background: '0x282828'
+      foreground: '0xdfbf8e'
+    normal:
+      black:   '0x665c54'
+      red:     '0xea6962'
+      green:   '0xa9b665'
+      yellow:  '0xe78a4e'
+      blue:    '0x7daea3'
+      magenta: '0xd3869b'
+      cyan:    '0x89b482'
+      white:   '0xdfbf8e'
+    bright:
+      black:   '0x928374'
+      red:     '0xea6962'
+      green:   '0xa9b665'
+      yellow:  '0xe3a84e'
+      blue:    '0x7daea3'
+      magenta: '0xd3869b'
+      cyan:    '0x89b482'
+      white:   '0xdfbf8e'
+  onedark: &onedark
+    primary:
+      background: '#1e222a'
+      foreground: '#c8ccd4'
+    cursor:
+      text: CellBackground
+      cursor: '#abb2bf'
+    selection:
+      text: CellForeground
+      background: '#3e4451'
+    normal:
+      black:   '#282c34'
+      red:     '#e06c75'
+      green:   '#98be65'
+      yellow:  '#e5c07b'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#abb2bf'
+    bright:
+      black:   '#545862'
+      red:     '#e06c75'
+      green:   '#98be65'
+      yellow:  '#e5c07b'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#c8ccd4'
+  perdition: &perdition
+    primary:
+      background: "0x101010"
+      foreground: "0xb9b9b9"
+    normal:
+      black: "0x101010"
+      red: "0x7c7c7c"
+      green: "0x8e8e8e"
+      yellow: "0xa0a0a0"
+      blue: "0x686868"
+      magenta: "0x747474"
+      cyan: "0x868686"
+      white: "0xb9b9b9"
+    bright:
+      black: "0x525252"
+      red: "0x7c7c7c"
+      green: "0x8e8e8e"
+      yellow: "0xa0a0a0"
+      blue: "0x686868"
+      magenta: "0x747474"
+      cyan: "0x868686"
+      white: "0xf7f7f7"
+  catppuccin: &catppuccin 
+    primary:
+      background: "#24273A" # base
+      foreground: "#CAD3F5" # text
+      # Bright and dim foreground colors
+      dim_foreground: "#CAD3F5" # text
+      bright_foreground: "#CAD3F5" # text
+    cursor:
+      text: "#24273A" # base
+      cursor: "#F4DBD6" # rosewater
+    vi_mode_cursor:
+      text: "#24273A" # base
+      cursor: "#B7BDF8" # lavender
+    search:
+      matches:
+        foreground: "#24273A" # base
+        background: "#A5ADCB" # subtext0
+      focused_match:
+        foreground: "#24273A" # base
+        background: "#A6DA95" # green
+      footer_bar:
+        foreground: "#24273A" # base
+        background: "#A5ADCB" # subtext0
+    hints:
+      start:
+        foreground: "#24273A" # base
+        background: "#EED49F" # yellow
+      end:
+        foreground: "#24273A" # base
+        background: "#A5ADCB" # subtext0
+    selection:
+      text: "#24273A" # base
+      background: "#F4DBD6" # rosewater
+    normal:
+      black: "#494D64" # surface1
+      red: "#ED8796" # red
+      green: "#A6DA95" # green
+      yellow: "#EED49F" # yellow
+      blue: "#8AADF4" # blue
+      magenta: "#F5BDE6" # pink
+      cyan: "#8BD5CA" # teal
+      white: "#B8C0E0" # subtext1
+    bright:
+      black: "#5B6078" # surface2
+      red: "#ED8796" # red
+      green: "#A6DA95" # green
+      yellow: "#EED49F" # yellow
+      blue: "#8AADF4" # blue
+      magenta: "#F5BDE6" # pink
+      cyan: "#8BD5CA" # teal
+      white: "#A5ADCB" # subtext0
+    dim:
+      black: "#494D64" # surface1
+      red: "#ED8796" # red
+      green: "#A6DA95" # green
+      yellow: "#EED49F" # yellow
+      blue: "#8AADF4" # blue
+      magenta: "#F5BDE6" # pink
+      cyan: "#8BD5CA" # teal
+      white: "#B8C0E0" # subtext1
+
+    indexed_colors:
+      - { index: 16, color: "#F5A97F" }
+      - { index: 17, color: "#F4DBD6" }
+colors: *onedark
