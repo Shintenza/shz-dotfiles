@@ -77,6 +77,7 @@ static const Rule rules[] = {
 	{ "Brave-browser",          NULL,     NULL,                 1 << 1,         0,          0,          0,          -1 },
 	{ "discord",                NULL,     NULL,                 1 << 2,         0,          0,          0,          -1 },
 	{ "neovide",                NULL,     NULL,                 1 << 3,         0,          0,          0,          -1 },
+	{ "VSCodium",               NULL,     NULL,                 1 << 3,         0,          0,          0,          -1 },
 	{ "Spotify",                NULL,     NULL,                 1 << 4,         0,          0,          0,          -1 },
 	{ "Alacritty",              NULL,     NULL,                      0,         0,          1,          0,          -1 },
 	{ "St",                     NULL,     NULL,                      0,         0,          1,          0,          -1 },
