@@ -1,0 +1,40 @@
+# Font
+font = Hack Nerd Font
+font-size = 10
+
+# Window Style
+horizontal = true
+anchor = top
+width = 100%
+height = 22
+
+outline-width = 0
+border-width = 0
+min-input-width = 120
+result-spacing = 25
+padding-top = 3
+padding-bottom = 0
+padding-left = 10
+padding-right = 0
+
+# Text style
+prompt-text = "Run:"
+prompt-padding = 30
+
+background-color = #1e222a
+text-color = #eeeeee
+
+prompt-background = #3f495c
+prompt-background-padding = 10, 10
+
+input-color = #eeeeee
+
+alternate-result-background-padding = 4, 0
+alternate-result-background-corner-radius = 12
+
+selection-color = #eeeeee
+selection-background = #3f495c
+selection-background-padding = 4, 10
+
+clip-to-padding = false
+

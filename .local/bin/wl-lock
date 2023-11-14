@@ -1,0 +1,17 @@
+#!/bin/bash
+
+swaylock \
+	--clock \
+	--indicator \
+	--indicator-radius 100 \
+	--indicator-thickness 7 \
+	--effect-blur 7x5 \
+	--effect-vignette 0.5:0.5 \
+	--ring-color 1E222A \
+	--key-hl-color D37D84 \
+	--line-color 00000000 \
+	--inside-color 00000088 \
+  --inside-wrong-color DF6C75 \
+  --inside-ver-color 1F2329 \
+	--separator-color 00000000 \
+  -i ~/Pictures/wallpapers/lockscreen_hyprland.png

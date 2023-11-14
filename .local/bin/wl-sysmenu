@@ -1,16 +1,18 @@
 #!/bin/bash
 
-options=(" Poweroff" " Reboot" " Logout" "󰒲 Suspend")
-choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu ${#options[@]})
+options=(" Poweroff" " Reboot" " Lock" " Logout" "󰒲 Suspend")
+choice=$(printf '%s\n' "${options[@]}" | tofi --config ~/.config/tofi/config_sysmenu)
 
 if [ "$choice" == "${options[0]}" ]; then
-    poweroff
+    systemctl poweroff
 elif [ "$choice" == "${options[1]}" ]; then
-    reboot
+    systemctl reboot
 elif [ "$choice" == "${options[2]}" ]; then
-    hyprctl dispatch exit
+     wl-lock
 elif [ "$choice" == "${options[3]}" ]; then
-    systemctl suspend 
+    hyprctl dispatch exit
+elif [ "$choice" == "${options[4]}" ]; then
+    systemctl suspend
 else 
     exit 1
 fi
