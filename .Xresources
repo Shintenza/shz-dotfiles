@@ -1,1 +1,21 @@
-Xft.dpi: 120
+Xft.dpi: 125
+dwm.statusbgcolor:         #222222
+dwm.statusfgcolor:         #eeeeee 
+dwm.norminfobgcolor:       #222222 
+dwm.norminfofgcolor:       #bbbbbb
+dwm.selinfobgcolor:        #545454
+dwm.selinfofgcolor:        #eeeeee
+dwm.normtagsbgcolor:       #222222
+dwm.normtagsfgcolor:       #eeeeee
+dwm.seltagsbgcolor:        #545454
+dwm.seltagsfgcolor:        #F4F4F4
+dwm.selbordercolor:        #ffffff
+dwm.normbordercolor:       #444444
+
+dwm.tag_1_fg:                  #B9B9B9
+dwm.tag_2_fg:                  #B9B9B9
+dwm.tag_3_fg:                  #B9B9B9
+dwm.tag_4_fg:                  #B9B9B9
+dwm.tag_5_fg:                  #B9B9B9
+dwm.tag_6_fg:                  #B9B9B9
+dwm.tag_7_fg:                  #B9B9B9
